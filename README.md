@@ -1,6 +1,6 @@
 # miniProjects
 some side projects while CStudying 
 
-##cpp
+## cpp
 
-##visUAL 
+## visUAL 
