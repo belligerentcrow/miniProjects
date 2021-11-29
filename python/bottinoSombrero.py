@@ -155,4 +155,4 @@ async def info(ctx):  #context, how the command was executed
     await ctx.send(ctx.author)
     await ctx.send(ctx.message.id)
 
-bot.run('ODk2MTQ2MzA0NDgzMzQ4NTIw.YWC3SA.NlAh_NndnsaERTKdUVejMnz6XIw')
+bot.run('///////////bot unique code////////////////')
