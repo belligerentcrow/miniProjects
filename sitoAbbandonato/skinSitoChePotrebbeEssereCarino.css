@@ -1,0 +1,87 @@
+*, *::before, *::after {
+  box-sizing: border-box;
+  font-family: "Courier New", Courier, monospace;
+  background-color: #2e2a2a;
+  color: #F4D95A;
+
+}
+
+/* background: 290012, text: f2dfbf F4D95A*/
+
+h2{
+  color: #61f6ff;
+}
+
+#description{
+  width:50%;
+  border: 2px solid #F09E5D;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 80px;
+  margin-right: 100px;
+}
+
+.upperStats{
+  display: flex;
+  align-items: center;
+ display: flex;
+ flex-direction: row;
+
+}
+
+#statsTable{
+  border: 2px solid rgb(83, 60, 33);
+  margin-bottom: 80px;
+  border-radius: 5px;
+
+}
+
+th{
+  border-radius: 3px;
+  border: 2px solid #61f6ff;
+  padding: 13px;
+  font-weight: bold;
+}
+
+td{
+  padding: 10px;
+}
+
+main {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+.gameSpace{
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 6px 1px #180900;
+  height: auto;
+  justify-content: center;
+}
+
+hr {
+  border-color: #F09E5D
+}
+
+#text{
+  margin-bottom: 30px;
+}
+
+.btn-grid{
+  border-radius: 8px;
+ display: grid;
+ grid-template-columns: repeat(2,auto);
+ gap:10px;
+ margin-top:40px;
+}
+
+.btn{
+border-radius: 8px;
+padding: 3px;
+box-shadow: 0 0 3px 2px;
+}
