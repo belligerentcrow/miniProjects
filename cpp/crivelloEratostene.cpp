@@ -29,7 +29,7 @@ while(p<=radN){		// minore uguale perché l'ultimo primo potrebbe essere N stess
 //cout << "\nCrivello, divido per "<< p << "\n\n"; 
 //count = 0; 		//azzero count che serve in caso di stampa
 for(int i=0; i<N-1; i++){
-	if(matrice[i]%p==0&&matrice[i]!=p){	
+	if(matrice[i]%p==0&&matrice[i]!=p){	 
 	matrice[i] = 0;			// qua scrivella via i non-primi, ovvero i divisibili per p 
 	 
 	}
