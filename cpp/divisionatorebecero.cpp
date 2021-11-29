@@ -30,5 +30,5 @@ int main(){
 	cin >> N;
 
 	divisibileper(N, divisori, risultato);
-	stampa(N, divisori, risultato); 
+	stampa(N, divisori, risultato);  
 }
